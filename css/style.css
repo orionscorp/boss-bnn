@@ -174,7 +174,7 @@ button:focus{
     margin-top: 30px;
 }
 .tz-gallery .lightbox img {
-    width: 228px;
+    width: 178px;
     transition: 0.2s ease-in-out;
     box-shadow: 0 2px 3px rgba(0,0,0,0.2);
 }
@@ -192,8 +192,8 @@ button:focus{
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-right: 66px;
-    margin-left: 113px;
+    margin-right: 68px;
+    margin-left: 154px;
 }
 /* End Gallery*/
 
