@@ -166,6 +166,37 @@ button:focus{
     background: hwb(241 20% 11%);
 }
 
+/* ========= Gallery ===========*/
+.gallery-box {
+    padding: 117px 0px;
+}
+.tz-gallery {
+    margin-top: 30px;
+}
+.tz-gallery .lightbox img {
+    width: 228px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+} 
+.tz-gallery .lightbox {
+    border: 3px solid hwb(241 20% 11%);
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.gallery-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 66px;
+    margin-left: 113px;
+}
+/* End Gallery*/
+
 /* ========= Slides==========*/
 .cover-slides {
     height: 100vh;
@@ -261,7 +292,7 @@ button:focus{
 /*============ About =======*/
 .about-section-box {
     padding: 70px 0px;
-    background: hsl(0, 0%, 39%)  no-repeat bottom center;
+    background: hsl(0, 0%, 39%) url(../boss/bg-rehabilitasi.jpg) no-repeat bottom center;
     background-size: cover;
     
 }
@@ -290,7 +321,7 @@ button:focus{
 }
 /*================ QT Section=============*/
 .qt-background {
-    background: url(../boss/footer-2.jpg) no-repeat;
+    background: url(../boss/bg-cegah.jpg) no-repeat;
     background-size: cover;
     padding: 100px 0;
     background-attachment: fixed;
@@ -313,29 +344,6 @@ button:focus{
     font-weight: 600;
 }
 /*== End Qt Section */
-
-/* ========= Gallery ===========*/
-.gallery-box {
-    padding: 117px 0px;
-}
-.tz-gallery {
-    margin-top: 30px;
-}
-.tz-gallery .lightbox img {
-    width: 100%;
-    transition: 0.2s ease-in-out;
-    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
-}
-.tz-gallery .lightbox img:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
-} 
-.tz-gallery .lightbox {
-    border: 3px solid hwb(241 20% 11%);
-    display: inline-block;
-    margin-bottom: 30px;
-}
-/* End Gallery*/
 
 /*========== Customer Reviews ========*/
 .customer-reviews-box {
